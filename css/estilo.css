@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.calculadora {
+	margin: 0 auto 0 auto;
+	position: relative;
+	top: 100px;
+	width: 415px;
+	height: auto;
+	background-color: #ddd;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 20px solid orange;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	right: 10px;
+}
+
+#pVisor {
+	text-align: center;
+}
+
+.visor {
+	margin-top: 10px;
+}
+
+.nav {
+	background-color: black;
+	position: relative;
+	padding: 5px 5px 5px 0;
+}
+
+.nav li {
+	color: white;
+	display: inline;
+	width: 200px;
+	padding: 5px 5px 5px 0px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.nav li:hover {
+	background-color: coral;
+}
+
+.nav ul ul {
+	position: absolute;
+	width: auto;
+	top: 0;
+	border: 2px solid black;
+	left: -212px;
+	display: none;
+}
+
+.nav ul ul li{
+	background-color: coral;
+	display: block;
+
+}
+
+.nav ul ul li:hover{
+	background-color: #000;
+}
+
+
+ .visor input[type="text"] {
+	width: 390px;
+	height: 35px;
+	border: 2px solid black;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+#meio {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.botoes #meio button {
+	width: 100px;
+	height: 50px;
+	float left;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+
+.botoes #meio button:hover {
+	background-color: orange;
+	border: 2px solid black;
+}
+
+.historico {
+	float: left;
+	margin-left: -212px;
+	margin-top: -280px;
+	background-color: #ddd;
+	width: 205px;
+	height: 200px;
+	overflow: scroll;
+	display: none;
+	border: 2px solid #000;
+}
+
+.resultado {
+	color: red;
+}
